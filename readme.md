@@ -4,5 +4,5 @@
 $ docker build -t declipse .
 $ docker run -p 5901:5901 declipse
 
-# Connect knime container via vnc (host:192.168.99.100 <docker_host_ip>) password:developer
+# Connect declipse container via vnc (host:192.168.99.100 <docker_host_ip>) password:developer
 vnc://<docker_host_ip>:5901
